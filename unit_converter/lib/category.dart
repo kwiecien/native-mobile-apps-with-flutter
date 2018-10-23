@@ -86,9 +86,7 @@ class Category extends StatelessWidget {
           splashColor: color,
           // We can use either the () => function() or the () { function(); }
           // syntax.
-          onTap: () {
-            _navigateToConverter(context);
-          },
+          onTap: () => _navigateToConverter(context),
           child: Padding(
             padding: EdgeInsets.all(8.0),
             child: Row(
